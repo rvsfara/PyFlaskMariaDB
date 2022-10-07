@@ -1,0 +1,28 @@
+<DOCTYPE html>
+<html>
+  <head>
+   <title>Entry Form</title>
+  </head>
+  <body>
+    <a href="#">Home</a> <a href="#">Entry Data</a> <a href="#">Display Data</a>
+    <h1>Arithmetics</h1>
+    <table>
+    <form action="" method="post" novalidate>
+    <tr>
+      <td>{{ formnya.nilai_1.label }}</td><td>:</td>
+      <td>{{ formnya.nilai_1(size=20) }}</td>
+    </tr>    
+    <tr>
+      <td>{{ formnya.nilai_2.label }}</td><td>:</td>
+      <td>{{ formnya.nilai_2(size=20) }}</td>
+    </tr>    
+    <tr>
+       <td>{{ formnya.operatornya.label }}</td><td>:</td>
+       <td>{{ formnya.operatornya }}</td>
+    </tr>    
+    <tr>
+       <td>{{ formnya.submit() }} {{ formnya.batal }}</td>
+    </tr>
+    </body>   
+    </table>
+</html>
