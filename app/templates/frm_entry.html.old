@@ -1,7 +1,10 @@
-{% extends "header_footer.html" %}
-{% block content %}
-    <a href="#">Home</a>
-    <a href="#">Entry Data</a> <a href="#">Display Data</a>
+<DOCTYPE html>
+<html>
+  <head>
+   <title>Entry Form</title>
+  </head>
+  <body>
+    <a href="#">Home</a> <a href="#">Entry Data</a> <a href="#">Display Data</a>
     <h1>Arithmetics</h1>
     <table>
     <form action="" method="post" novalidate>
@@ -20,4 +23,6 @@
     <tr>
        <td>{{ formnya.submit() }} {{ formnya.batal }}</td>
     </tr>
-{% endblock %}
+    </body>   
+    </table>
+</html>
