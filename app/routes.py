@@ -5,7 +5,7 @@ from app.frm_entry import EntryForm
 # Connecting database
 app.config["MYSQL_DATABASE_HOST"]="localhost"
 app.config["MYSQL_DATABASE_USER"]="root"
-app.config["MYSQL_DATABASE_PASSWORD"]="1Openrvsfara"
+app.config["MYSQL_DATABASE_PASSWORD"]=""#colocar sua senha do MySql
 app.config["MYSQL_DATABASE_DB"]="crudflaskmariadb"
 app.config["MYSQL_PORT"]="3306"
 # Preparing variable on mysqlnya
